@@ -1,6 +1,6 @@
 [build]
   base = "."
-  command = "chmod +x build-netlify.sh && ./build-netlify.sh"
+  command = "npm run dev"
   publish = "dist/public"
 
 [dev]
